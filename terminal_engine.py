@@ -1047,9 +1047,9 @@ def main():
                 screen_pos = engine.project_3d_to_2d(
                     vertex, model_matrix, view_matrix, projection_matrix
                 )
-                # Offset to cube center
-                screen_pos.x += cube_center_x
-                screen_pos.y += cube_center_y
+                # Offset to cube center.. not needed
+                ##screen_pos.x += cube_center_x
+                ##screen_pos.y += cube_center_y
                 projected_vertices.append(screen_pos)
             
             # Draw cube edges
@@ -1059,7 +1059,7 @@ def main():
                 v2 = projected_vertices[edge[1]]
                 engine.draw_line_fast(
                     int(v1.x), int(v1.y), int(v2.x), int(v2.y),
-                    '█', cube_color, (0, 0, 0)
+                    '≣', cube_color, (0, 0, 0)
                 )
             
             # Draw info text
@@ -1075,4 +1075,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
