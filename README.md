@@ -37,4 +37,5 @@ it has:
 - `terminal_engine.py` - Core graphics engine
 - `terminal_engine_demo.py` - Demo suite and examples
 
-Perfect for terminal-based games, visualizations, and interactive applications.
+
+.
