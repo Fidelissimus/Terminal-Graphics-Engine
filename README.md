@@ -2,6 +2,7 @@
 
 A high-performance terminal graphics engine with advanced rendering capabilities, featuring anti-aliased graphics, true color support, and 3D rendering.
 
+
 ## Features
 
 - **Flicker-free rendering** with double buffering
@@ -12,10 +13,13 @@ A high-performance terminal graphics engine with advanced rendering capabilities
 - **Sprite system** with transparency
 - **Non-blocking** keyboard input
 
+- It doesn't rely on any dependency
+
 
 ## Requirements
 
 - Python 3.10+
+- Run it in terminal/cmd
 
 ## Quick Start
 
@@ -31,6 +35,7 @@ it has:
 4. **Color Palette** - 256-color mapping visualization
 5. **Interactive Etch-a-Sketch** - Real-time drawing tool
 
+(Note that you might want to use [Ctrl+ scroll down] or [Ctrl+ -] to resize the terminal so you can see it good (that's in Windows, not sure about Linux.. also you can resize the width & height of TerminalGraphicsEngine)
 
 ## Files
 
